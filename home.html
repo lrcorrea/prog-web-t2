@@ -18,7 +18,7 @@
 
         <!-- HEADER -->
         <header id="header-home">
-            <nav class="uk-navbar-container" uk-navbar>
+            <nav class="uk-navbar-container uk-flex uk-flex-center" uk-navbar>
                 <div class="uk-navbar-left">
 
                     <ul class="uk-navbar-nav">
@@ -88,12 +88,71 @@
 
         <!-- CONTEÚDO DO SITE -->
         <main id="container">
-            <a class="uk-button uk-button-primary uk-button-default" href="">teste 1</a>
-            <button class="uk-button uk-button-default">teste 2</button>
-            <button class="uk-button uk-button-default" disabled>teste 3</button>
+            <section class="uk-section">
+
+                <div class="uk-container uk-container-large uk-flex">
+                    <div class="uk-width-3-4@m uk-padding-small">
+                        <h1 class="uk-text-large uk-text-bold uk-text-danger">Responsive Web Design Testing: The Complete Beginner’s Guide</h1>
+
+                        <div class="uk-text-normal uk-text-muted uk-margin-small-top">
+                            Last Updated:<span class="uk-text-danger">September 15, 2020</span>
+                        </div>
+
+                        <div class="uk-text-normal uk-text-secondary uk-margin-large-top">
+                            In today’s age, the use of mobile devices to access the internet has grown and become quite popular. Almost every internet user desires a mobile version of the website.
+                            <br/>
+                            <br/>
+                            However, most websites are not as optimized as they should be for mobile devices. The testers should perform a mobile responsive test on responsive designs.
+                            <br/>
+                            <br/>
+                            Traditional software products render essentially the same on any device.
+                            <br/>
+                            <br/>
+                            Microsoft Office, <strong>for example</strong>, looks the same on every personal computer. Imagine taking Microsoft Word exactly as it runs on your desktop, and viewing it on an iPhone4. Either the menus and buttons will appear tiny, or else you’ll only see a corner of the screen, and need to use extensive scrollbars. Either way, the application becomes essentially unusable.
+                            <br/>
+                            <br/>
+
+                            <img data-src="https://cdn.softwaretestinghelp.com/wp-content/qa/uploads/2016/11/Responsive-web-testing.jpg" class="uk-margin-small-top" alt="Responsive Web Design Testing" uk-img>
+                        </div>
+                    </div>
+
+                    <div class="uk-width-1-4@m uk-padding-small">
+                        <h2 class="uk-text-small uk-text-bold uk-text-secondary">About SoftwareTestingHelp</h2>
+
+                        <div class="uk-background-muted uk-padding-small">
+                            <strong>Helping our community since 2006!</strong> Most popular portal for Software professionals with <strong>100 million+ visits and 300,000+ followers!</strong> You will absolutely love our tutorials on QA Testing, Development, Software Tools and Services Reviews and more!
+                        </div>
+
+                        <h2 class="uk-text-small uk-text-bold uk-text-secondary uk-margin-medium-top">Recommended Reading</h2>
+
+                        <ul class="uk-list">
+                            <li><a class="uk-link-muted" href="#">Alpha Testing and Beta Testing (A Complete Guide)</a></li>
+                            <li><a class="uk-link-muted" href="#">Build Verification Testing (BVT Testing) Complete Guide</a></li>
+                            <li><a class="uk-link-muted" href="#">Functional Testing Vs Non-Functional Testing</a></li>
+                            <li><a class="uk-link-muted" href="#">Types of Software Testing: Different Testing Types with Details</a></li>
+                            <li><a class="uk-link-muted" href="#">Best Software Testing Tools 2020 [QA Test Automation Tools]</a></li>
+                            <li><a class="uk-link-muted" href="#">ETL Testing Data Warehouse Testing Tutorial (A Complete Guide)</a></li>
+                            <li><a class="uk-link-muted" href="#">Web Application Security Testing Guide</a></li>
+                            <li><a class="uk-link-muted" href="#">Best QA Software Testing Services from SoftwareTestingHelp</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </section>
         </main>
 
-        <footer id="footer">footer</footer>
+        <footer id="footer">
+            <!-- This is a button toggling the modal -->
+            <button uk-toggle="target: #modal" type="button" class="uk-button uk-button-default">modal</button>
+
+            <!-- This is the modal -->
+            <div id="modal" uk-modal>
+                <div class="uk-modal-dialog uk-modal-body">
+                    <button class="uk-modal-close-outside" type="button" uk-close></button>
+                    <h2 class="uk-modal-title">Desenvolvido por: </h2>
+                </div>
+            </div>
+        </footer>
 
         <script
             src="https://code.jquery.com/jquery-3.5.1.min.js"
