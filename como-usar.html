@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Título</title>
+
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Alef&display=swap" rel="stylesheet">
+        <!-- UIkit CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/css/uikit.min.css" />
+
+        <link rel="stylesheet" href="./assets/css/styles.css">
+        <link rel="stylesheet" href="https://getuikit.com/css/theme.css?1330">
+
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.min.js"
+            integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+            crossorigin="anonymous"></script>
+
+        <!-- UIkit JS -->
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit-icons.min.js"></script>
+    </head>
+
+    <body>
+
+        <!-- HEADER -->
+        <header id="header-home">
+            <div class="uk-flex uk-flex-right uk-hidden@m uk-navbar-container" uk-navbar uk-sticky="animation: uk-animation-slide-top; show-on-up: true">
+                <a class="uk-navbar-toggle" uk-navbar-toggle-icon uk-toggle="target: #mobile-navbar"></a>
+            </div>
+
+            <!-- Menu Desktop -->
+            <nav class="uk-navbar-container uk-flex uk-flex-center uk-visible@m" uk-navbar uk-sticky="animation: uk-animation-slide-top; show-on-up: true">
+                <div class="uk-navbar-left">
+
+                    <ul class="uk-navbar-nav">
+                        <li><a href="./home.html">Home</a></li>
+                        <li class="uk-active"><a href="./como-usar.html">Como Usar</a></li>
+                        <li><a href="./comentarios.html">Comentários</a></li>
+                        <li class=""><a href="./home.html">Resources</a></li>
+                        <li class=""><a href="./home.html">Free EBooks</a></li>
+
+                        <li>
+                            <a href="#">QA Testing <span uk-icon="icon: chevron-down; ratio: 0.7"></span></a>
+                            <div class="uk-navbar-dropdown">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="https://www.softwaretestinghelp.com/free-online-software-testing-qa-training-course/" target="_blank">Free QA Training</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/how-to-write-effective-test-cases-test-cases-procedures-and-definitions/" target="_blank">Test Cases</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/testlink-tutorial-1/" target="_blank">TestLink</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/software-development-life-cycle-sdlc/" target="_blank">SDLC</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/manual-testing-tutorial-1/" target="_blank">Software Testing</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/bugzilla-new-version-bugzilla-30-released/" target="_blank">BugZilla</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/beginners-guide-to-mobile-application-testing/" target="_blank">Mobile Testing</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/agile-scrum-methodology-for-development-and-testing/" target="_blank">Agile Methodology</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/database-testing-process/" target="_blank">Database Testing</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/etl-testing-data-warehouse-testing/" target="_blank">ETL Testing</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/software-quality-assurance/" target="_blank">Quality Assurance</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/15-best-test-management-tools-for-software-testers/" target="_blank">Test Management</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/guide-erp-testing-sap-testing-1/" target="_blank">SAP ERP Testing</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="#">Courses <span uk-icon="icon: chevron-down; ratio: 0.7"></span></a>
+                            <div class="uk-navbar-dropdown">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li class=""><a href="http://www.softwaretestinghelp.org/best-software-testing-online-training-course/" target="_blank"><span uk-icon="icon: user; ratio: 0.7"></span> Software Testing (LIVE Course)</a></li>
+                                    <li class=""><a href="http://www.softwaretestinghelp.org/selenium-training-online-course/" target="_blank"><span uk-icon="icon: user; ratio: 0.7"></span> Selenium (LIVE Course)</a></li>
+                                    <li class=""><a href="http://www.softwaretestinghelp.org/software-testing-qa-videos/" target="_blank"><span uk-icon="icon: user; ratio: 0.7"></span> Software Testing</a></li>
+                                    <li class=""><a href="http://www.softwaretestinghelp.org/selenium-training-videos/" target="_blank"><span uk-icon="icon: youtube; ratio: 0.7"></span> Selenium</a></li>
+                                    <li class=""><a href="http://www.softwaretestinghelp.org/qtp-training-videos/" target="_blank"><span uk-icon="icon: youtube; ratio: 0.7"></span> QTP/UFT</a></li>
+                                    <li class=""><a href="http://www.softwaretestinghelp.org/jira-video-course/" target="_blank"><span uk-icon="icon: youtube; ratio: 0.7"></span> JIRA</a></li>
+                                    <li class=""><a href="http://www.softwaretestinghelp.org/ruby-cucumber-online-video-course/" target="_blank"><span uk-icon="icon: youtube; ratio: 0.7"></span> Ruby Cucumber</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="#">Automation <span uk-icon="icon: chevron-down; ratio: 0.7"></span></a>
+                            <div class="uk-navbar-dropdown">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="https://www.softwaretestinghelp.com/automation-testing-tutorial-1/" target="_blank">Automation Testing</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/web-services-api-testing-tool-soapui-tutorial-1/" target="_blank">SoapUI</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/atlassian-jira-tutorial-1/" target="_blank">JIRA</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/selenium-tutorial-1/" target="_blank">Selenium</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/qtp-quicktest-professional-tutorial-1/" target="_blank">QTP/UFT</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/learn-hp-quality-center-qc-in-4-days/" target="_blank">ALM QC</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/jmeter-tutorials/" target="_blank">JMeter</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/hp-loadrunner-load-testing-tool-training-tutorials/" target="_blank">LoadRunner</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="#">Types Of Testing <span uk-icon="icon: chevron-down; ratio: 0.7"></span></a>
+                            <div class="uk-navbar-dropdown">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="https://www.softwaretestinghelp.com/types-of-software-testing/" target="_blank">All Testing Types</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/regression-testing-tools-and-methods/" target="_blank">Regression Testing</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/unit-testing/" target="_blank">Unit Testing</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/unit-testing/" target="_blank">Smoke Testing</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/guide-to-functional-testing/" target="_blank">Functional Testing</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/what-is-integration-testing/" target="_blank">Integration Testing</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/system-testing/" target="_blank">System Testing</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/usability-testing-guide/" target="_blank">Usability Testing</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/what-is-user-acceptance-testing-uat/" target="_blank">UAT Testing</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/beta-testing/" target="_blank">Beta Testing</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/black-box-testing/" target="_blank">Black Box Testing</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/white-box-testing-techniques-with-example/" target="_blank">White Box testing</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/load-testing/" target="_blank">Load Testing</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/stress-testing/" target="_blank">Stress Testing</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/how-to-test-application-security-web-and-desktop-application-security-testing-techniques/" target="_blank">Security Testing</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/introduction-to-performance-testing-loadrunner-training-tutorial-part-1/" target="_blank">Performance Testing</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="#">Tutorials <span uk-icon="icon: chevron-down; ratio: 0.7"></span></a>
+                            <div class="uk-navbar-dropdown">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="https://www.softwaretestinghelp.com/devops-tutorials/" target="_blank">DevOps</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/vbscript-tutorial-1/" target="_blank">VBScript</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/computer-networking-basics/" target="_blank">Computer Networking</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/mockito-tutorial/" target="_blank">Mockito</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/python/" target="_blank">Python</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/java/" target="_blank">JAVA</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/unix-tutorials/" target="_blank">UNIX</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/angularjs-tutorial/" target="_blank">AngularJS</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/specflow-tutorial/" target="_blank">SpecFlow</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/json-tutorial/" target="_blank">JSON</a></li>
+                                    <li><a href="https://www.softwaretestinghelp.com/mongodb/" target="_blank">MongoDB</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+
+            <!-- Menu Mobile -->
+            <div id="mobile-navbar" uk-offcanvas="mode: slide; flip: false" class="uk-offcanvas">
+                <div class="uk-offcanvas-bar">
+                    <ul class="uk-nav-default uk-nav-parent-icon uk-nav" uk-nav="">
+                        <li><a href="./home.html">Home</a></li>
+                        <li class="uk-active"><a href="./como-usar.html">Como Usar</a></li>
+                        <li><a href="./comentarios.html">Comentários</a></li>
+                        <li><a href="./home.html">Resources</a></li>
+                        <li><a href="./home.html">Free EBooks</a></li>
+
+                        <li class="uk-parent">
+                            <a href="#">QA Testing</a>
+                            <ul class="uk-nav-sub">
+                                <li><a href="https://www.softwaretestinghelp.com/free-online-software-testing-qa-training-course/" target="_blank">Free QA Training</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/how-to-write-effective-test-cases-test-cases-procedures-and-definitions/" target="_blank">Test Cases</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/testlink-tutorial-1/" target="_blank">TestLink</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/software-development-life-cycle-sdlc/" target="_blank">SDLC</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/manual-testing-tutorial-1/" target="_blank">Software Testing</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/bugzilla-new-version-bugzilla-30-released/" target="_blank">BugZilla</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/beginners-guide-to-mobile-application-testing/" target="_blank">Mobile Testing</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/agile-scrum-methodology-for-development-and-testing/" target="_blank">Agile Methodology</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/database-testing-process/" target="_blank">Database Testing</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/etl-testing-data-warehouse-testing/" target="_blank">ETL Testing</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/software-quality-assurance/" target="_blank">Quality Assurance</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/15-best-test-management-tools-for-software-testers/" target="_blank">Test Management</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/guide-erp-testing-sap-testing-1/" target="_blank">SAP ERP Testing</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="uk-parent">
+                            <a href="#">Courses</a>
+                            <ul class="uk-nav-sub">
+                                <li class=""><a href="http://www.softwaretestinghelp.org/best-software-testing-online-training-course/" target="_blank"><span uk-icon="icon: user; ratio: 0.7"></span> Software Testing (LIVE Course)</a></li>
+                                <li class=""><a href="http://www.softwaretestinghelp.org/selenium-training-online-course/" target="_blank"><span uk-icon="icon: user; ratio: 0.7"></span> Selenium (LIVE Course)</a></li>
+                                <li class=""><a href="http://www.softwaretestinghelp.org/software-testing-qa-videos/" target="_blank"><span uk-icon="icon: user; ratio: 0.7"></span> Software Testing</a></li>
+                                <li class=""><a href="http://www.softwaretestinghelp.org/selenium-training-videos/" target="_blank"><span uk-icon="icon: youtube; ratio: 0.7"></span> Selenium</a></li>
+                                <li class=""><a href="http://www.softwaretestinghelp.org/qtp-training-videos/" target="_blank"><span uk-icon="icon: youtube; ratio: 0.7"></span> QTP/UFT</a></li>
+                                <li class=""><a href="http://www.softwaretestinghelp.org/jira-video-course/" target="_blank"><span uk-icon="icon: youtube; ratio: 0.7"></span> JIRA</a></li>
+                                <li class=""><a href="http://www.softwaretestinghelp.org/ruby-cucumber-online-video-course/" target="_blank"><span uk-icon="icon: youtube; ratio: 0.7"></span> Ruby Cucumber</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="uk-parent">
+                            <a href="#">Automation</a>
+                            <ul class="uk-nav-sub">
+                                <li><a href="https://www.softwaretestinghelp.com/automation-testing-tutorial-1/" target="_blank">Automation Testing</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/web-services-api-testing-tool-soapui-tutorial-1/" target="_blank">SoapUI</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/atlassian-jira-tutorial-1/" target="_blank">JIRA</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/selenium-tutorial-1/" target="_blank">Selenium</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/qtp-quicktest-professional-tutorial-1/" target="_blank">QTP/UFT</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/learn-hp-quality-center-qc-in-4-days/" target="_blank">ALM QC</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/jmeter-tutorials/" target="_blank">JMeter</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/hp-loadrunner-load-testing-tool-training-tutorials/" target="_blank">LoadRunner</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="uk-parent">
+                            <a href="#">Types Of Testing</a>
+                            <ul class="uk-nav-sub">
+                                <li><a href="https://www.softwaretestinghelp.com/types-of-software-testing/" target="_blank">All Testing Types</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/regression-testing-tools-and-methods/" target="_blank">Regression Testing</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/unit-testing/" target="_blank">Unit Testing</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/unit-testing/" target="_blank">Smoke Testing</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/guide-to-functional-testing/" target="_blank">Functional Testing</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/what-is-integration-testing/" target="_blank">Integration Testing</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/system-testing/" target="_blank">System Testing</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/usability-testing-guide/" target="_blank">Usability Testing</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/what-is-user-acceptance-testing-uat/" target="_blank">UAT Testing</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/beta-testing/" target="_blank">Beta Testing</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/black-box-testing/" target="_blank">Black Box Testing</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/white-box-testing-techniques-with-example/" target="_blank">White Box testing</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/load-testing/" target="_blank">Load Testing</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/stress-testing/" target="_blank">Stress Testing</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/how-to-test-application-security-web-and-desktop-application-security-testing-techniques/" target="_blank">Security Testing</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/introduction-to-performance-testing-loadrunner-training-tutorial-part-1/" target="_blank">Performance Testing</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="uk-parent">
+                            <a href="#">Tutorials</a>
+                            <ul class="uk-nav-sub">
+                                <li><a href="https://www.softwaretestinghelp.com/devops-tutorials/" target="_blank">DevOps</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/vbscript-tutorial-1/" target="_blank">VBScript</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/computer-networking-basics/" target="_blank">Computer Networking</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/mockito-tutorial/" target="_blank">Mockito</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/python/" target="_blank">Python</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/java/" target="_blank">JAVA</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/unix-tutorials/" target="_blank">UNIX</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/angularjs-tutorial/" target="_blank">AngularJS</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/specflow-tutorial/" target="_blank">SpecFlow</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/json-tutorial/" target="_blank">JSON</a></li>
+                                <li><a href="https://www.softwaretestinghelp.com/mongodb/" target="_blank">MongoDB</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <!-- CONTEÚDO DO SITE -->
+        <main id="container">
+            <section class="uk-section">
+
+                <div class="uk-container uk-container-large uk-flex uk-flex-wrap">
+                    <div class="uk-width-4-4@s uk-width-3-4@m uk-position-relative">
+                        <div class="uk-padding-small">
+                            <h2 class="uk-h1 tm-heading-fragment" id="introducao"><a href="#introducao">Introdução</a></h2>
+                            <div class="uk-text-lead">Familiarize-se com a configuração básica e a visão geral do UIkit.</div>
+                            <p class="uk-margin-medium-top">
+                                Em primeiro lugar, você precisa baixar o UIkit. Para outros pacotes e links para um CDN, vá para o <a href="#guia-de-instalação">guia de instalação</a> para saber mais.
+                            </p>
+                            <a class="uk-button uk-button-primary" href="https://getuikit.com/download">Baixar UIkit</a>
+
+                            <hr class="uk-margin-large">
+
+                            <h2 id="conteudo-do-pacote" class="uk-h3 tm-heading-fragment"><a href="#conteudo-do-pacote">Conteúdo do pacote</a></h2>
+                            <p class="uk-margin-medium-top">O arquivo Zip contém os arquivos CSS e JavaScript compilados, que são tudo o que você precisa para começar. Posteriormente, você pode querer instalar e compilar o UIkit por conta própria e também criar seu próprio tema do UIkit.</p>
+                            <div class="uk-overflow-auto">
+                                <table class="uk-table uk-table-divider">
+                                    <thead>
+                                        <tr>
+                                            <th align="left">Pasta</th>
+                                            <th align="left">Descrição</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td align="left"><code>/css</code></td>
+                                            <td align="left">Contém o CSS do UIkit e uma versão da direita para a esquerda.</td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left"><code>/js</code></td>
+                                            <td align="left">Contém o UIkit JavaScript e o Icon Library JavaScript.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <hr class="uk-margin-large">
+
+                            <h2 id="marcacao-html" class="uk-h3 tm-heading-fragment"><a href="#marcacao-html">Marcação HTML</a></h2>
+                            <p class="uk-margin-medium-top">
+                                Adicione o CSS e JavaScript compilado e reduzido ao elemento <code>&lt;head&gt;</code> do seu documento HTML5. Inclua também a biblioteca de ícones do UIkit. Para sua configuração básica, é isso.
+                            </p>
+
+                            <div class="uk-margin-medium">
+                                <pre>
+                                    <code class="lang-html hljs xml">
+    <span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Title<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">"utf-8"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"viewport"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"width=device-width, initial-scale=1"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">"stylesheet"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"css/uikit.min.css"</span> /&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"js/uikit.min.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"js/uikit-icons.min.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+                                    </code>
+                                </pre>
+                            </div>
+
+                            <p class="uk-margin-medium-top">
+                                Depois de incluir o UIkit em seu documento, dê uma olhada nos componentes disponíveis e crie sua própria marcação dentro do elemento <code>&lt;body&gt;</code> de sua página.
+                            </p>
+
+                            <hr class="uk-margin-large">
+
+                            <h2 id="uikit-autocomplete-para-seu-editor" class="uk-h3 tm-heading-fragment"><a href="#uikit-autocomplete-para-seu-editor">UIkit autocomplete para seu editor</a></h2>
+                            <p class="uk-margin-medium-top">
+                                O uso do UIkit funciona melhor se você tiver um editor de código sólido, por exemplo Sublime Text ou Atom. Para ser ainda mais eficiente, recomendamos que você instale um dos plug-ins de preenchimento automático para seu IDE ou editor de código favorito. Isso economiza muito tempo, pois você não precisa procurar e digitar todas as classes UIkit e markup.te para o seu editor
+                            </p>
+                            <ul class="uk-list uk-list-disc"><li><a href="https://github.com/uikit/uikit-sublime">Autocomplete plugin para o Sublime Text 3</a></li>
+                                <li><a href="https://atom.io/packages/uikit-atom">Autocomplete plugin para o Atom</a></li>
+                                <li><a href="https://marketplace.visualstudio.com/items?itemName=Keno.uikit-3-snippets">Snippets para o Visual Studio Code</a></li>
+                            </ul>
+
+                            <hr class="uk-margin-large">
+
+                            <h2 id="uikit-autocomplete-para-seu-editor" class="uk-h3 tm-heading-fragment"><a href="#uikit-autocomplete-para-seu-editor">Suporte dos navegadores</a></h2>
+                            <p class="uk-margin-medium-top">
+                                A tabela a seguir lista as versões nas quais o UIkit é testado. "Mais recente" significa que funciona perfeitamente em todas as versões recentes desse navegador. Com muitos navegadores adotando uma estratégia de lançamento contínuo, fixar o suporte do navegador a uma versão específica se tornou um pouco complicado nos últimos anos. Resumindo: o UIkit funcionará em praticamente qualquer navegador moderno.
+                            </p>
+
+                            <div class="uk-child-width-1-3 uk-child-width-expand@s uk-text-center uk-grid" uk-grid="" uk-height-match="> * > div">
+                                <div class="uk-first-column">
+                                    <div class="uk-flex uk-flex-center uk-flex-middle" style="">
+                                        <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome.svg?sanitize=true" width="50" alt="Chrome">
+                                    </div>
+                                    <p>Mais recente</p>
+                                </div>
+                                <div>
+                                    <div class="uk-flex uk-flex-center uk-flex-middle" style="min-height: 50px;">
+                                        <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox.svg?sanitize=true" width="50" alt="Firefox">
+                                    </div>
+                                    <p>Mais recente</p>
+                                </div>
+                                <div>
+                                    <div class="uk-flex uk-flex-center uk-flex-middle" style="min-height: 50px;">
+                                        <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge.svg?sanitize=true" width="50" alt="Edge">
+                                    </div>
+                                    <p>Mais recente</p>
+                                </div>
+                                <div>
+                                    <div class="uk-flex uk-flex-center uk-flex-middle" style="min-height: 50px;">
+                                        <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/archive/internet-explorer_9-11/internet-explorer_9-11.svg?sanitize=true" width="50" alt="IE">
+                                    </div>
+                                    <p>11+</p>
+                                </div>
+                                <div>
+                                    <div class="uk-flex uk-flex-center uk-flex-middle" style="min-height: 50px;">
+                                        <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari-ios/safari-ios.svg?sanitize=true" width="50" alt="Safari">
+                                    </div>
+                                    <p>9.1+</p>
+                                </div>
+                                <div>
+                                    <div class="uk-flex uk-flex-center uk-flex-middle" style="min-height: 50px;">
+                                        <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera.svg?sanitize=true" width="50" alt="Opera">
+                                    </div>
+                                    <p>Mais recente</p>
+                                </div>
+                            </div>
+
+                            <hr class="uk-margin-large">
+
+                            <h2 class="uk-h1 tm-heading-fragment" id="guia-de-instalação"><a href="#guia-de-instalação">Guia de Instalação</a></h2>
+
+                            <p class="uk-text-lead">Aprenda onde fazer o download e como compilar as fontes do UIkit.</p>
+
+                            <h2 id="baixar" class="uk-h3 tm-heading-fragment"><a href="#baixar">Baixar</a></h2>
+                            <p class="uk-margin-medium-top">
+                                Você tem as seguintes opções para obter o UIkit:
+                            </p>
+
+                            <ul class="uk-list uk-list-disc">
+                                <li>Baixe a <a href="https://github.com/uikit/uikit/releases/latest"></a>versão mais recente</a> com JavaScript e CSS predefinidos.</li>
+                                <li>Instale com o  <a href="https://yarnpkg.com/en/package/uikit">Yarn</a> para obter os arquivos de origem JavaScript, CSS e Less pré-construídos. Isso é recomendado ao usar UIkit para um projeto típico da web: <code>yarn add uikit</code></li>
+                                <li>Clone o repo para obter todos os arquivos de origem, incluindo scripts de compilação: <code>git clone git://github.com/uikit/uikit.git</code></li>
+                            </ul>
+
+                            <p class="uk-margin-medium-top">
+                                Os arquivos compilados de todas as versões do UIkit também são hospedados na rede de distribuição de conteúdo jsDelivr via
+                                <a href="https://www.jsdelivr.com/package/npm/uikit">jsdelivr.com</a>
+                            </p>
+
+                            <div class="uk-margin-medium"><pre><code class="lang-html hljs xml"><span class="hljs-comment">&lt;!-- UIkit CSS --&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">"stylesheet"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/css/uikit.min.css"</span> /&gt;</span>
+
+    <span class="hljs-comment">&lt;!-- UIkit JS --&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit.min.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit-icons.min.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></code></pre>
+                            </div>
+
+                            <hr class="uk-margin-large">
+
+                            <h2 id="estrutura-do-arquivo-da-fonte" class="uk-h3 tm-heading-fragment"><a href="#estrutura-do-arquivo-da-fonte">Estrutura do arquivo da fonte</a></h2>
+                            <p class="uk-margin-medium-top">
+                                O projeto Github contém todos os arquivos fonte que são compilados na pasta <code>dist</code>. Menos fontes são compiladas em arquivos CSS, fontes JavaScript são agrupadas e transpiladas para o ECMAScript 5 e os ícones são agrupados na biblioteca de ícones.
+                            </p>
+
+                            <div class="uk-overflow-auto"><table class="uk-table uk-table-divider"><thead><tr>
+                                <th align="left">Pasta</th>
+                                <th align="left">Descrição</th>
+                                </tr>
+                                </thead><tbody><tr>
+                                <td align="left"><code>/src</code></td>
+                                <td align="left">Contém todas as fontes Less, JavaScript e imagens.</td>
+                                </tr>
+                                <tr>
+                                <td align="left"><code>/dist</code></td>
+                                <td align="left">Contém CSS e JS compilados, atualizados a cada versão.</td>
+                                </tr>
+                                <tr>
+                                <td align="left"><code>/tests</code></td>
+                                <td align="left">Contém arquivos de teste HTML de todos os componentes.</td>
+                                </tr>
+                                </tbody></table></div>
+                        </div>
+
+                        <div class="tm-sidebar-right uk-visible@m" style="width: 35%">
+                            <div uk-sticky="offset: 50" class="uk-sticky uk-active uk-sticky-fixed uk-sticky-below uk-padding-small">
+                                <h2 class="uk-text-small uk-text-bold uk-text-secondary uk-margin-medium-top">Guia</h2>
+
+                                <ul class="uk-list">
+                                    <li><a class="uk-link-muted" href="#introducao">Introdução</a></li>
+                                    <li><a class="uk-link-muted" href="#marcacao-html">Marcação HTML</a></li>
+                                    <li><a class="uk-link-muted" href="#uikit-autocomplete-para-seu-editor">UIkit autocomplete for your editor</a></li>
+                                    <li><a class="uk-link-muted" href="#browser-support">Browser support</a></li>
+                                    <li><a class="uk-link-muted" href="#guia-de-instalação">Guia de Instalação</a></li>
+                                    <li><a class="uk-link-muted" href="#baixar">Baixar</a></li>
+                                    <li><a class="uk-link-muted" href="#estrutura-do-arquivo-da-fonte">Estrutura do arquivo da fonte</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="uk-width-4-4@s uk-width-1-4@m uk-padding-small uk-visible@m">
+                        <h2 class="uk-text-small uk-text-bold uk-text-secondary uk-margin-medium-top">Guia</h2>
+
+                        <ul class="uk-list">
+                            <li><a class="uk-link-muted" href="#introducao">Introdução</a></li>
+                            <li><a class="uk-link-muted" href="#marcacao-html">Marcação HTML</a></li>
+                            <li><a class="uk-link-muted" href="#uikit-autocomplete-para-seu-editor">UIkit autocomplete for your editor</a></li>
+                            <li><a class="uk-link-muted" href="#browser-support">Browser support</a></li>
+                            <li><a class="uk-link-muted" href="#guia-de-instalação">Guia de Instalação</a></li>
+                            <li><a class="uk-link-muted" href="#baixar">Baixar</a></li>
+                            <li><a class="uk-link-muted" href="#estrutura-do-arquivo-da-fonte">Estrutura do arquivo da fonte</a></li>
+                        </ul>
+                    </div> -->
+                </div>
+
+            </section>
+        </main>
+
+        <footer id="footer">
+            <div id="modal" uk-modal>
+                <div class="uk-modal-dialog">
+                    <button class="uk-modal-close-default" type="button" uk-close></button>
+                    <div class="uk-modal-header">
+                        <h2 class="uk-modal-title">Desenvolvido por:</h2>
+                    </div>
+
+                    <div class="uk-modal-body">
+                        <p>Lucas Correa e Pedro Delagustinhi</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="./assets/js/main.js"></script>
+    </body>
+</html>

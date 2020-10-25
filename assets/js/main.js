@@ -8,7 +8,12 @@ function Main() {
 
 Main.prototype.init = function(){
     var hash = window.location.hash.substr(1);
-    UIkit.scroll($window).scrollTo($('a[href="#'+hash+'"]'));
+    if(hash){
+        setTimeout(function(){
+            console.log($('#'+hash));
+            UIkit.scroll($window).scrollTo($('#'+hash));
+        }, 1000);
+    }
 };
 
 jQuery(function() {
