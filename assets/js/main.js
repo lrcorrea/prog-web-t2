@@ -7,7 +7,8 @@ function Main() {
 };
 
 Main.prototype.init = function(){
-    console.log('init');
+    var hash = window.location.hash.substr(1);
+    UIkit.scroll($window).scrollTo($('a[href="#'+hash+'"]'));
 };
 
 jQuery(function() {
