@@ -1,0 +1,5 @@
+@media (max-width: 1175px) and (min-width: 960px){
+    .uk-navbar-item, .uk-navbar-nav>li>a, .uk-navbar-toggle{
+        padding: 0 4px !important;
+    }
+}
